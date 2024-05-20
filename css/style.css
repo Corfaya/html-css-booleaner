@@ -52,3 +52,20 @@ h4 {
     font-weight: 600;
     font-size: 15px;
 }
+
+/* Images captions */
+#images-box {
+    margin-bottom: 20px;
+}
+
+#caption {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+/* Paragraphs */
+.yellow-span {
+    background-color: yellow;
+}
+
+/* Table */
