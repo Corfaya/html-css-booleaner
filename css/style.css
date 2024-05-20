@@ -1,4 +1,4 @@
-/* Reset and var */
+/* Reset, font, var, body */
 * {
     margin: 0;
     padding: 0;
@@ -44,6 +44,7 @@ h1 {
 h4 {
     color: var(--grey);
     font-weight: 600;
+    margin-top: 5px;
 }
 
 #span-booleaner {
