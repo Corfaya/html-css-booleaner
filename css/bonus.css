@@ -22,12 +22,14 @@ header {
 
 #logo {
     width: 180px;
-    padding: 40px 0 5px 10px;
+    /* BONUS PROPERTY: changed the 4th value from 10px to 0px */
+    padding: 40px 0 5px 0;
 }
 
-/* Distance of article and footer's elements from webpage borders */
-article, footer {
-    margin: 5px;
+/* BONUS CHALLANGE */
+.container {
+    width: 1200px;
+    margin: 0 auto;
 }
 
 /* Title */
