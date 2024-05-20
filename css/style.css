@@ -1,8 +1,12 @@
-/* Reset */
+/* Reset and var */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+:root {
+    --grey: #818181;
 }
 
 /* Header: CSS rules */
@@ -10,10 +14,41 @@ header {
     background-color: #54BEFF;
     background-image: url("../img/pattern.png");
     background-size: 350px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 #logo {
     width: 180px;
     padding: 40px 0 5px 10px;
+}
+
+/* Distance of article and footer's elements from webpage borders */
+article, footer {
+    margin: 5px;
+}
+
+/* Title */
+
+#title {
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 40px;
+    line-height: 40px;
+}
+
+h4 {
+    color: var(--grey);
+    font-weight: 600;
+}
+
+#span-booleaner {
+    color: #66c3fd;
+}
+
+#article-date {
+    color: var(--grey);
+    font-weight: 600;
+    font-size: 15px;
 }
