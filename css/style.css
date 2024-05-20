@@ -1,0 +1,19 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header: CSS rules */
+header {
+    background-color: #54BEFF;
+    background-image: url("../img/pattern.png");
+    background-size: 350px;
+    margin-bottom: 10px;
+}
+
+#logo {
+    width: 180px;
+    padding: 40px 0 5px 10px;
+}
