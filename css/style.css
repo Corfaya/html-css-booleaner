@@ -7,11 +7,14 @@
 
 :root {
     --grey: #818181;
+    --dark-azure: #54BEFF;
+    --lighter-azure: #66c3fd;
+    --skyblue: #B8E5FF;
 }
 
 /* Header: CSS rules */
 header {
-    background-color: #54BEFF;
+    background-color: var(--dark-azure);
     background-image: url("../img/pattern.png");
     background-size: 350px;
     margin-bottom: 20px;
@@ -44,7 +47,7 @@ h4 {
 }
 
 #span-booleaner {
-    color: #66c3fd;
+    color: var(--lighter-azure);
 }
 
 #article-date {
@@ -65,7 +68,26 @@ h4 {
 
 /* Paragraphs */
 .yellow-span {
-    background-color: yellow;
+    background-color: #ffff00;
 }
 
 /* Table */
+table {
+    margin: 20px 0;
+    border-spacing: 0;
+    width: 100%;
+}
+
+#darker-row {
+    background-color: var(--dark-azure);
+    color: #ffffff;
+}
+
+.lighter-row {
+    background-color: var(--skyblue);
+}
+
+.td-padding {
+    padding: 10px 100px 10px 0;
+    width: 300px;
+}
